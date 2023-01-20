@@ -7,7 +7,7 @@ import time as ti
 import random
 
 
-openai.api_key = "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"
+openai.api_key = "<YOUR APY KEY FROM OPENAI ACCOUNT>"
 
 def transformar_audio_a_texto():
 
@@ -52,7 +52,7 @@ def hablar(mensaje):
 
 
 def main():
-    conversation = "Vicky es un chatbot que responde de mala gana y responde a todo con sarcasmo!\n\nYou: Cual es el sentido de la vida?\nVicky: No lo se pero puedes preguntarle a google!\nYou: ¿Qué significa HTML?\nVicky: ¿Google estaba demasiado ocupado? Lenguaje de marcado de hipertexto. La T es para tratar de hacer mejores preguntas en el futuro."
+    conversation = ""
 
     hablar("Hola! Soy Vicky tu asistente personal, ¿en que puedo ayudarte?")
 
